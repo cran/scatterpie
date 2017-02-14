@@ -1,6 +1,6 @@
 Package: scatterpie
 Title: Scatterpie Plot
-Version: 0.0.5
+Version: 0.0.6
 Authors@R: person("Guangchuang", "Yu",
 	   	  email = "guangchuangyu@gmail.com",
 		  role = c("aut", "cre"))
@@ -12,10 +12,10 @@ VignetteBuilder: knitr
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2016-12-02 01:44:24 UTC; guangchuangyu
+Packaged: 2017-02-14 11:41:30 UTC; guangchuangyu
 Author: Guangchuang Yu [aut, cre]
 Maintainer: Guangchuang Yu <guangchuangyu@gmail.com>
 Repository: CRAN
-Date/Publication: 2016-12-02 10:46:28
+Date/Publication: 2017-02-14 16:21:20
