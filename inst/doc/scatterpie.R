@@ -3,7 +3,6 @@ knitr::opts_chunk$set(tidy = FALSE,
 		   message = FALSE)
 
 ## ----echo=FALSE, results="hide", message=FALSE---------------------------
-library("ggplot2")
 library("scatterpie")
 theme_set(theme_minimal())
 
@@ -40,6 +39,10 @@ p <- ggplot(world, aes(long, lat)) +
 p + geom_scatterpie(aes(x=long, y=lat, group=region, r=radius),
                     data=d, cols=LETTERS[1:4], color=NA, alpha=.8) +
     geom_scatterpie_legend(d$radius, x=-160, y=-55)
+
+p + geom_scatterpie(aes(x=long, y=lat, group=region, r=radius),
+                    data=d, cols=LETTERS[1:4], color=NA, alpha=.8) +
+    geom_scatterpie_legend(d$radius, x=-160, y=-55, n=3, labeller=function(x) 1000*x^2)
 
 ## ----echo=FALSE----------------------------------------------------------
 sessionInfo()
