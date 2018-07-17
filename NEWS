@@ -1,3 +1,13 @@
+CHANGES IN VERSION 0.1.2
+------------------------
+ o import rvcheck::get_aes_var to compatible with ggplot2 v < 2.3.0 and >= 2.3.0 <2018-05-23, Wed>
+
+CHANGES IN VERSION 0.1.1
+------------------------
+ o compatible with ggplot2 v=2.2.1.9000
+ o import rlang and use tidyeval with tidyr::gather <2018-04-18, Wed>
+   + https://github.com/GuangchuangYu/scatterpie/issues/9
+
 CHANGES IN VERSION 0.0.7
 ------------------------
  o add parameter `sorted_by_radius`.
