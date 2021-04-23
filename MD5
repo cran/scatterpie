@@ -1,14 +1,14 @@
-28a22cafc0c26c9753c6098a6299cccf *DESCRIPTION
+be0db22a0643aa605fe75755376f7d71 *DESCRIPTION
 9acd25cd36ae1f89afb1b4414d9176f9 *NAMESPACE
 a6c922688bbd4b88102444d0b01fe32a *NEWS
 f70d9fe1f957b2397f79ad96c77b7f3b *R/geom_scatterpie.R
 dd7f346e5f32bfb13abf88290b4bc2ea *R/geom_scatterpie_legend.R
 6e453ef1a5e24f4f7470ca30dd9fc0ee *R/recenter.R
 fa09f4a5e011dc98909661969677d220 *R/utilities.R
-3869fe39043b8ed4deb5a640169751a4 *build/vignette.rds
+604e75b52fff3e93cce5b1fd8c43e2f4 *build/vignette.rds
 5e0d7834806ff7ec70440be24bebac69 *inst/doc/scatterpie.R
 742c974124460643b8c1757f51d636db *inst/doc/scatterpie.Rmd
-9522389f4edd66a4f642ad55a42ebefe *inst/doc/scatterpie.html
+9d824c9456811a87590106876b03ee92 *inst/doc/scatterpie.html
 fdd7a4f4ee4f433c1428fbee8a44570d *man/geom_scatterpie.Rd
 45d965688e2231cbf07dbaf0ca660de4 *man/geom_scatterpie_legend.Rd
 689541c0b1e6541ec7bad2935ac2dfc3 *man/recenter.Rd
