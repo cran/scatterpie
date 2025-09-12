@@ -1,3 +1,8 @@
+# scatterpie 0.2.6
+
++ Added drop = FALSE to subsetting of data (2025-09-12, Fri, #52)
++ replace `aes_` and `aes_string` with `aes` as they are soft-deprecated (2025-07-02, Wed, #51)
+
 # scatterpie 0.2.5
 
 + S3 method consistency with ggplot2 (v=4.0.0) (2025-06-21, Sat, #50)
